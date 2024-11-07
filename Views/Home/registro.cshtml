@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "registro";
+}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body class="cuerpo">
+    <div class="login-container">
+        <h2 class="login-title">Register</h2>
+
+        <div class="login-social-icons">
+            <div class="login-icon"><img src="../img/google.png"></div>
+            <div class="login-icon"><img src="../img/facebook.png"></div>
+            <div class="login-icon"><img src="../img/asd.png"></div>
+        </div>
+
+        <form action="@Url.Action("Index", "Home")" method="post" class="login-form">
+            <label for="username" class="login-label">Ingresa Tu Nombre Completo </label>
+            <input type="text" id="username" name="username" class="login-input" placeholder="Nombre Usuario / Gmail" required>
+
+            <label for="password" class="login-label">Ingresa Tu Mail</label>
+            <input type="password" id="password" name="password" class="login-input" placeholder="Contraseña" required>
+
+            <label for="datetime" class="login-label">YYYY / MM / DD</label>
+            <input type="date" id="datetime" name="date" class="login-input" placeholder="YYYY / MM / DD" required>
+
+            <button type="submit" class="login-button">Registrarse</button>
+
+        </form>
+
+        <div class="login-extra-options">
+            <p class="login-register-text">¿Ya tienes cuenta? <a href="@Url.Action("LogIn", "Home")" class="login-register-link">Inicia Sesion <b>Aqui</b></a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "olvidecontraseña";
+}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+</head>
+<body class="cuerpo">
+    <div class="login-container">
+        <h2 class="olvdc">¿ Olvidaste Tu Contraseña ?</h2>
+        <h4 class="enviarmail">Te enviaremos un mail a tu bandeja de entrada para restablecer tu contraseña.</h4>
+
+        <form action="@Url.Action("LogIn", "Home")" method="post" class="login-form">
+            <label for="username" class="login-label">Gmail</label>
+            <input type="text" id="username" name="username" class="login-input" placeholder="Gmail" required>
+
+            <button type="submit" class="login-button">Enviar</button>
+        </form>
+
+        <div class="login-extra-options">
+            <p class="login-register-text"><a href="@Url.Action("LogIn", "Home")" class="login-register-link"><b>Volver</b></a></p>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -13,7 +13,20 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    public IActionResult Index()
+public IActionResult index()
+    {
+        return View();
+    }
+        public IActionResult LogIn()
+    {
+        return View();
+    }
+            public IActionResult olvidecontraseña()
+    {
+        return View();
+    }
+
+            public IActionResult registro()
     {
         return View();
     }
