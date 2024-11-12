@@ -10,6 +10,24 @@
 
 <body>
 
+    <header class="header">
+        <div class="logo-container">
+            <img src="../img/logodm.png" onclick="location.href='@Url.Action("index", "Home")'" alt="Dream Match Logo" class="logo" />
+        </div>
+        <nav class="nav">
+            <a href="#" class="nav-link">Pruebas</a>
+            <a href="#" class="nav-link">Motivación</a>
+            <a href="#" class="nav-link">Contacto</a>
+            <a href="#" class="nav-link">Desafíos dream</a>
+            <a href="#" class="nav-link">Recomendaciones</a>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar..." class="search-input" />
+            <img src="../img/iconlog.png" onclick="location.href='@Url.Action("LogIn", "Home")'" alt="Iniciar sesión" class="user-icon" />
+        </div>
+    </header>
+
+
 
     <main role="main">
         @RenderBody()

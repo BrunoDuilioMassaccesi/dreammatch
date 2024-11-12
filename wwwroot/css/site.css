@@ -16,8 +16,270 @@ body {
 
 
 footer {
-  margin-top: 10px;
+  margin-top: 25%;
   padding: 10px;
   background-color: #f8f9fa;
   border-top: 1px solid #e9ecef;
 }
+
+.cuerpo{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+.login-container {
+  width: 100%;
+  height: 500px;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.login-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.login-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.login-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #e0e0e0; 
+  display: inline-block;
+}
+
+img
+{
+  margin-top: 5px;
+  width: 35px;
+  height: 35px;
+
+}
+.login-label {
+  display: none; 
+}
+.login-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: none;
+  border-bottom: 2px solid #333;
+  background: none;
+  outline: none;
+  font-size: 1em;
+  color: #555;
+  text-align: center;
+}
+.login-button {
+  width: 40%;
+  padding: 12px;
+  background-color: #000;
+  color: #ffffff;
+  font-weight: bold;
+  border: 1px solid #333;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 45px;
+}
+
+.login-button:hover {
+  background-color: #333;
+}
+
+.login-extra-options {
+  margin-top: 20px;
+}
+
+.login-forgot-password {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.login-forgot-password:hover {
+  text-decoration: underline;
+}
+
+.login-register-text {
+  margin-top: 70px;
+  color: #333;
+  font-size: 0.9em;
+}
+
+.login-register-link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-register-link b {
+  color: #000;
+}
+
+.login-register-link:hover {
+  text-decoration: underline;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f0f2f5;
+  border-bottom: 2px solid #c4c4c4;
+}
+.header-logo img {
+  width: 50px;
+  height: auto;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header-link:hover {
+  color: #555;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-search input {
+  padding: 5px 10px;
+  border: 1px solid #c4c4c4;
+  border-radius: 20px;
+  outline: none;
+  font-size: 0.9em;
+}
+
+.header-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+.enviarmail
+{
+  text-align: center;
+  margin-bottom: 15%;
+}
+.olvdc
+{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 20%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo general del body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Estilo del header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.user-icon {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+

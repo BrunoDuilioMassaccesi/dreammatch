@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\dmlog\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
       "Id": "Z:\\dmlog\\wwwroot\\img\\apple.png",
       "PackagePath": "staticwebassets\\img\\apple.png"
     },
@@ -23,6 +27,14 @@
     {
       "Id": "Z:\\dmlog\\wwwroot\\img\\google.png",
       "PackagePath": "staticwebassets\\img\\google.png"
+    },
+    {
+      "Id": "Z:\\dmlog\\wwwroot\\img\\iconlog.png",
+      "PackagePath": "staticwebassets\\img\\iconlog.png"
+    },
+    {
+      "Id": "Z:\\dmlog\\wwwroot\\img\\logodm.png",
+      "PackagePath": "staticwebassets\\img\\logodm.png"
     },
     {
       "Id": "Z:\\dmlog\\wwwroot\\js\\site.js",
