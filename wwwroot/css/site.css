@@ -26,8 +26,6 @@ footer {
   height: 100%;
   margin: 0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
 }
@@ -38,6 +36,8 @@ footer {
   padding: 20px;
   background-color: #ffffff;
   border-radius: 8px;
+  margin-left: 39%;
+  margin-top: 4%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
@@ -50,6 +50,7 @@ footer {
 }
 
 .login-social-icons {
+  margin-top: 10%;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -118,7 +119,7 @@ img
 }
 
 .login-register-text {
-  margin-top: 70px;
+  margin-top: 12%;
   color: #333;
   font-size: 0.9em;
 }

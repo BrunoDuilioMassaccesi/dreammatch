@@ -12,12 +12,6 @@
     <div class="login-container">
         <h2 class="login-title">Register</h2>
 
-        <div class="login-social-icons">
-            <div class="login-icon"><img src="../img/google.png"></div>
-            <div class="login-icon"><img src="../img/facebook.png"></div>
-            <div class="login-icon"><img src="../img/asd.png"></div>
-        </div>
-
         <form action="@Url.Action("Index", "Home")" method="post" class="login-form">
             <label for="username" class="login-label">Ingresa Tu Nombre Completo </label>
             <input type="text" id="username" name="username" class="login-input" placeholder="Nombre Usuario / Gmail" required>
@@ -29,6 +23,12 @@
             <input type="date" id="datetime" name="date" class="login-input" placeholder="YYYY / MM / DD" required>
 
             <button type="submit" class="login-button">Registrarse</button>
+
+                    <div class="login-social-icons">
+                        <div class="login-icon"><img src="../img/google.png"></div>
+                        <div class="login-icon"><img src="../img/facebook.png"></div>
+                        <div class="login-icon"><img src="../img/asd.png"></div>
+                    </div>
 
         </form>
 

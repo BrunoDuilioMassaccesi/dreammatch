@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\dmlog\\dmlog.csproj": {}
+    "Z:\\dreammatch\\dmlog.csproj": {}
   },
   "projects": {
-    "Z:\\dmlog\\dmlog.csproj": {
+    "Z:\\dreammatch\\dmlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\dmlog\\dmlog.csproj",
+        "projectUniqueName": "Z:\\dreammatch\\dmlog.csproj",
         "projectName": "dmlog",
-        "projectPath": "Z:\\dmlog\\dmlog.csproj",
+        "projectPath": "Z:\\dreammatch\\dmlog.csproj",
         "packagesPath": "C:\\Users\\48590334\\.nuget\\packages\\",
-        "outputPath": "Z:\\dmlog\\obj\\",
+        "outputPath": "Z:\\dreammatch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZIs831HPEh3qu9AxlmbS6+ijfRP7zH1fK0DUEx6TzA4=",
+  "Hash": "v7bxVwS/lUItAsWz2oTe463LAvmnj+EeU8Mk5n27vD0=",
   "Source": "dmlog",
   "BasePath": "_content/dmlog",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "dmlog\\wwwroot",
       "Source": "dmlog",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\css\\site.css",
+      "Identity": "Z:\\dreammatch\\wwwroot\\css\\site.css",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\favicon.ico",
+      "Identity": "Z:\\dreammatch\\wwwroot\\favicon.ico",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\apple.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\apple.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/apple.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\img\\apple.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\asd.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\asd.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/asd.png",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\img\\asd.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\facebook.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\facebook.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/facebook.png",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\google.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\google.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/google.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\img\\google.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\iconlog.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\iconlog.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/iconlog.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\img\\iconlog.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\logodm.png",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\logodm.png",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/logodm.png",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logodm.png"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\img\\Thumbs.db",
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\Thumbs.db",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "img/Thumbs.db",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\img\\Thumbs.db"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\js\\site.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\js\\site.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Z:\\dmlog\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "dmlog",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\dmlog\\wwwroot\\",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
       "BasePath": "_content/dmlog",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

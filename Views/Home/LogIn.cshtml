@@ -12,12 +12,6 @@
     <div class="login-container">
         <h2 class="login-title">Log in</h2>
 
-        <div class="login-social-icons">
-            <div class="login-icon"><img src="../img/google.png"></div>
-            <div class="login-icon"><img src="../img/facebook.png"></div>
-            <div class="login-icon"><img src="../img/asd.png"></div>
-        </div>
-
         <form action="@Url.Action("Index", "Home")" method="post" class="login-form">
             <label for="username" class="login-label">Nombre Usuario / Gmail</label>
             <input type="text" id="username" name="username" class="login-input" placeholder="Nombre Usuario / Gmail" required>
@@ -30,6 +24,15 @@
 
         <div class="login-extra-options">
             <a href="@Url.Action("olvidecontraseña", "Home")" class="login-forgot-password">¿Olvidaste tu Contraseña?</a>
+
+                <div class="login-social-icons">
+                        <div class="login-icon"><img src="../img/google.png"></div>
+                        <div class="login-icon"><img src="../img/facebook.png"></div>
+                        <div class="login-icon"><img src="../img/asd.png"></div>
+                </div>
+
+
+
             <p class="login-register-text">¿No tienes cuenta? <a href="@Url.Action("registro", "Home")" class="login-register-link">Registrate <b>Aqui</b></a></p>
         </div>
     </div>
