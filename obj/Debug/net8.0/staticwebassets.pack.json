@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\img\\facebook.png"
     },
     {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\findex.jpg",
+      "PackagePath": "staticwebassets\\img\\findex.jpg"
+    },
+    {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\google.png",
       "PackagePath": "staticwebassets\\img\\google.png"
     },

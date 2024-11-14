@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v7bxVwS/lUItAsWz2oTe463LAvmnj+EeU8Mk5n27vD0=",
+  "Hash": "d67Io7CIFSiFg8K4BtQrGF+funsOcpRYpOc8HBl/Mu0=",
   "Source": "dmlog",
   "BasePath": "_content/dmlog",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
+    },
+    {
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\findex.jpg",
+      "SourceId": "dmlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
+      "BasePath": "_content/dmlog",
+      "RelativePath": "img/findex.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\findex.jpg"
     },
     {
       "Identity": "Z:\\dreammatch\\wwwroot\\img\\google.png",
