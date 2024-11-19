@@ -30,4 +30,8 @@ public IActionResult index()
     {
         return View();
     }
+                public IActionResult Pruebas()
+    {
+        return View();
+    }
 }

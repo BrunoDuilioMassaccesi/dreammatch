@@ -283,6 +283,52 @@ body {
   align-items: center;
   padding: 20px;
 }
+.tx1
+{
+  margin-left: 60%;
+  margin-right: 7%;
+  margin-top: 5%;
+}
+
+.tx2
+{
+  margin-left: 7%;
+  margin-right: 60%;
+  margin-top: 6%;
+}
+/*.txt
+{
+  padding: 0%;
+  margin-left: 65%;
+  font-size: 7vh;
+}
+
+
+.im
+{
+  margin-left: 62%;
+  height: 100px;
+  width: 100px;
+}
+*/
+
+.logoi {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 60%;
+  align-items: center;
+  font-family: Arial, sans-serif; /* Cambia según la fuente que uses */
+  font-size: 5rem; /* Ajusta el tamaño del texto */
+  font-weight: bold;
+  color: #000; /* Ajusta según el color que necesites */
+}
+
+.icono-fuego {
+  padding-top: 50px;
+  width: 100px; /* Ajusta el tamaño de la imagen */
+  height: auto;
+}
+
 
 
 

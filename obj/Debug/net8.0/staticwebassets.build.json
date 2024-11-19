@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "d67Io7CIFSiFg8K4BtQrGF+funsOcpRYpOc8HBl/Mu0=",
+  "Hash": "gKV3b2xQFWAICHhsUoKnOnbPUuY7wmtFnAPDpYkwez4=",
   "Source": "dmlog",
   "BasePath": "_content/dmlog",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\findex.jpg"
+    },
+    {
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\fuego.png",
+      "SourceId": "dmlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
+      "BasePath": "_content/dmlog",
+      "RelativePath": "img/fuego.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fuego.png"
     },
     {
       "Identity": "Z:\\dreammatch\\wwwroot\\img\\google.png",
