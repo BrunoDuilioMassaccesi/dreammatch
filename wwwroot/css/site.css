@@ -205,7 +205,6 @@ img
   padding: 0;
 }
 
-/* Estilo general del body */
 body {
   font-family: Arial, sans-serif;
   background-color: #f0f2f5;
@@ -217,6 +216,7 @@ body {
 
 /* Estilo del header */
 .header {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -287,7 +287,8 @@ body {
 {
   margin-left: 60%;
   margin-right: 7%;
-  margin-top: 5%;
+  margin-top: 7%;
+  
 }
 
 .tx2
@@ -296,37 +297,42 @@ body {
   margin-right: 60%;
   margin-top: 6%;
 }
-/*.txt
-{
-  padding: 0%;
-  margin-left: 65%;
-  font-size: 7vh;
-}
-
-
-.im
-{
-  margin-left: 62%;
-  height: 100px;
-  width: 100px;
-}
-*/
-
 .logoi {
   display: flex;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-left: 60%;
   align-items: center;
-  font-family: Arial, sans-serif; /* Cambia según la fuente que uses */
-  font-size: 5rem; /* Ajusta el tamaño del texto */
+  font-family: Arial, sans-serif;
+  font-size: 5rem; 
   font-weight: bold;
-  color: #000; /* Ajusta según el color que necesites */
+  color: #000; 
+  margin-bottom: 0px;
 }
 
 .icono-fuego {
-  padding-top: 50px;
-  width: 100px; /* Ajusta el tamaño de la imagen */
+  padding-top: 30px;
+  width: 100px; 
   height: auto;
+}
+.icono-jugadores
+{
+    height: 55%;
+    width: 60%;
+    position: absolute;
+    top: 85px;
+
+}
+.i4
+{
+  position: fixed; 
+  bottom: 0; 
+  right: 0; 
+  width: 33%;
+  height: 35%; 
+  z-index: 100; 
+  margin-bottom: 4%;
+  margin-right: 7%;
+  margin-top: 0px;
 }
 
 

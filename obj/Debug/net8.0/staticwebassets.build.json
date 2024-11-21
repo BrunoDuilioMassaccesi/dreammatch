@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gKV3b2xQFWAICHhsUoKnOnbPUuY7wmtFnAPDpYkwez4=",
+  "Hash": "GeN1c9qCwy+rRfETsyxPDYRNanVVoEfV3sO66EuGq/c=",
   "Source": "dmlog",
   "BasePath": "_content/dmlog",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\4.png",
+      "SourceId": "dmlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
+      "BasePath": "_content/dmlog",
+      "RelativePath": "img/4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\4.png"
     },
     {
       "Identity": "Z:\\dreammatch\\wwwroot\\img\\apple.png",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\facebook.png"
+    },
+    {
+      "Identity": "Z:\\dreammatch\\wwwroot\\img\\fi1.png",
+      "SourceId": "dmlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\dreammatch\\wwwroot\\",
+      "BasePath": "_content/dmlog",
+      "RelativePath": "img/fi1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fi1.png"
     },
     {
       "Identity": "Z:\\dreammatch\\wwwroot\\img\\findex.jpg",

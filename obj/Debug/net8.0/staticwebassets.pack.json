@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\fi1.png",
+      "PackagePath": "staticwebassets\\img\\fi1.png"
     },
     {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\findex.jpg",
