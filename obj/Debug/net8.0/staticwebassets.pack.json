@@ -1,107 +1,107 @@
 {
   "Files": [
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\css\\site.css",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\favicon.ico",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\4.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\4.png",
       "PackagePath": "staticwebassets\\img\\4.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\Thumbs.db",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\Thumbs.db",
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\apple.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\apple.png",
       "PackagePath": "staticwebassets\\img\\apple.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\asd.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\asd.png",
       "PackagePath": "staticwebassets\\img\\asd.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\facebook.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\fi1.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\fi1.png",
       "PackagePath": "staticwebassets\\img\\fi1.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\findex.jpg",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\findex.jpg",
       "PackagePath": "staticwebassets\\img\\findex.jpg"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\fuego.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\fuego.png",
       "PackagePath": "staticwebassets\\img\\fuego.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\google.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\google.png",
       "PackagePath": "staticwebassets\\img\\google.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\iconlog.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\iconlog.png",
       "PackagePath": "staticwebassets\\img\\iconlog.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\img\\logodm.png",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\logodm.png",
       "PackagePath": "staticwebassets\\img\\logodm.png"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\js\\site.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "Z:\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
