@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\dreammatch\\dmlog.csproj": {}
+    "Z:\\dreammatch - copia\\dmlog.csproj": {}
   },
   "projects": {
-    "Z:\\dreammatch\\dmlog.csproj": {
+    "Z:\\dreammatch - copia\\dmlog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\dreammatch\\dmlog.csproj",
+        "projectUniqueName": "Z:\\dreammatch - copia\\dmlog.csproj",
         "projectName": "dmlog",
-        "projectPath": "Z:\\dreammatch\\dmlog.csproj",
+        "projectPath": "Z:\\dreammatch - copia\\dmlog.csproj",
         "packagesPath": "C:\\Users\\48590334\\.nuget\\packages\\",
-        "outputPath": "Z:\\dreammatch\\obj\\",
+        "outputPath": "Z:\\dreammatch - copia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\48590334\\AppData\\Roaming\\NuGet\\NuGet.Config"
