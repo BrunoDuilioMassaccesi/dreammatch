@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\img\\Thumbs.db"
     },
     {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\allboys.png",
+      "PackagePath": "staticwebassets\\img\\allboys.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\apple.png",
       "PackagePath": "staticwebassets\\img\\apple.png"
     },
@@ -25,8 +29,20 @@
       "PackagePath": "staticwebassets\\img\\asd.png"
     },
     {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\atlanta.png",
+      "PackagePath": "staticwebassets\\img\\atlanta.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\banfield.png",
+      "PackagePath": "staticwebassets\\img\\banfield.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\ferro.png",
+      "PackagePath": "staticwebassets\\img\\ferro.png"
     },
     {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\fi1.png",
@@ -41,6 +57,10 @@
       "PackagePath": "staticwebassets\\img\\fuego.png"
     },
     {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\gimnasia.png",
+      "PackagePath": "staticwebassets\\img\\gimnasia.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\google.png",
       "PackagePath": "staticwebassets\\img\\google.png"
     },
@@ -49,8 +69,20 @@
       "PackagePath": "staticwebassets\\img\\iconlog.png"
     },
     {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\independiente.png",
+      "PackagePath": "staticwebassets\\img\\independiente.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\logodm.png",
       "PackagePath": "staticwebassets\\img\\logodm.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\river.png",
+      "PackagePath": "staticwebassets\\img\\river.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\img\\sanlorenzo.png",
+      "PackagePath": "staticwebassets\\img\\sanlorenzo.png"
     },
     {
       "Id": "Z:\\dreammatch\\dreammatch\\wwwroot\\js\\site.js",
