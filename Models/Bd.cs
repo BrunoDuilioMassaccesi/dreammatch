@@ -9,14 +9,13 @@ namespace dreammatch
         private static string _connectionString = @"Server=localhost; DataBase=dreammatch; Trusted_Connection=true;";
 
         // Método para registrar un usuario
-        public static void RegistrarUsuario(string nombre, string email, string contraseña)
+        public static void RegistrarUsuario(string nombre, string email, string contraseña, DateTime Nacimiento, string Foto)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                string query = @"INSERT INTO Usuario (Email, Contraseña)
-                                 VALUES (@Email, @Contraseña)";
+                string query ="INSERT INTO Usuario (NombreUsuario, Gmail, Contraseña, Nacimiento, Foto) VALUES (@pNombreUsuario, @pGmail, @pContraseña, @pNacimiento, @pFoto)";
 
-                connection.Execute(query, new { Nombre = nombre, Email = email, Contraseña = contraseña });
+                connection.Execute(query, new { pNombreUsuario = nombre, pGmail = email, pContraseña = contraseña, pNacimiento=Nacimiento, pFoto = Foto});
             }
         }
 

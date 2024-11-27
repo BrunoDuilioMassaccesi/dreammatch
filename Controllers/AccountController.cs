@@ -8,19 +8,10 @@ namespace dreammatch.Controllers
     {
         // Registro de usuario
         [HttpPost]
-        public IActionResult Registrar(string nombreUsuario, string gmail, string telefono, string pais, string contraseña)
+        public IActionResult Registrar(string nombreUsuario, string gmail, string contraseña, DateTime nacimiento, string Foto)
         {
-            try
-            {
-                Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña);
-                ViewBag.Mensaje = "Usuario registrado con éxito.";
-                return View("Success");
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = $"Error al registrar usuario: {ex.Message}";
-                return View("Error");
-            }
+            Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña, nacimiento, Foto);
+            return RedirectToAction("Index","Home");
         }
 
         // Inicio de sesión
