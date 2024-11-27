@@ -13,8 +13,8 @@ namespace dreammatch
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                string query = @"INSERT INTO Usuario (Nombre, Email, Contraseña)
-                                 VALUES (@Nombre, @Email, @Contraseña)";
+                string query = @"INSERT INTO Usuario (Email, Contraseña)
+                                 VALUES (@Email, @Contraseña)";
 
                 connection.Execute(query, new { Nombre = nombre, Email = email, Contraseña = contraseña });
             }
