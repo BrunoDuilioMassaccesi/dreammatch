@@ -14,29 +14,63 @@ namespace dreammatch.Controllers
             return RedirectToAction("Index","Home");
         }
 
+        /*
         // Inicio de sesión
         [HttpPost]
         public IActionResult IniciarSesion(string gmail, string contraseña)
         {
-            try
+            Bd.IniciarSesion(gmail, contraseña);
             {
-                if (Bd.IniciarSesion(gmail, contraseña))
-                {
-                    // Autenticación exitosa
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ViewBag.Error = "Credenciales inválidas. Intenta de nuevo.";
-                    return View("Login");
-                }
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = $"Error al iniciar sesión: {ex.Message}";
-                return View("Error");
+
             }
         }
+        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         // Solicitud de recuperación de contraseña
         [HttpPost]
