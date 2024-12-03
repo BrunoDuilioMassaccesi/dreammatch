@@ -20,23 +20,21 @@ namespace dreammatch
         }
 
 
-        /*
-        // Método para verificar inicio de sesión
         public static bool IniciarSesion(string gmail, string contraseña)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
                 string query = @"SELECT COUNT(*) FROM Usuario WHERE Gmail = @Gmail AND Contraseña = @Contraseña";
 
+                // Asegúrate de que la contraseña sea almacenada de manera segura (hashed) en la base de datos.
                 int count = connection.ExecuteScalar<int>(query, new { Gmail = gmail, Contraseña = contraseña });
                 return count > 0; // Devuelve true si existe el usuario
             }
         }
-        */
         
 
 
-
+        /*
         // Método para solicitar recuperación de contraseña
         public static void SolicitarRecuperacion(string email, string codigoRecuperacion)
         {
@@ -75,5 +73,7 @@ namespace dreammatch
                 connection.Execute(query, new { Email = email, NuevaContraseña = nuevaContraseña });
             }
         }
+        */
     }
+    
 }

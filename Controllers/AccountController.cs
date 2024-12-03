@@ -6,7 +6,7 @@ namespace dreammatch.Controllers
 {
     public class AccountController : Controller
     {
-        // Registro de usuario
+        
         [HttpPost]
         public IActionResult Registrar(string nombreUsuario, string gmail, string contraseña, DateTime nacimiento, string Foto)
         {
@@ -14,17 +14,23 @@ namespace dreammatch.Controllers
             return RedirectToAction("Index","Home");
         }
 
-        /*
-        // Inicio de sesión
-        [HttpPost]
-        public IActionResult IniciarSesion(string gmail, string contraseña)
+    [HttpPost]
+    public IActionResult IniciarSesion(string gmail, string contraseña)
+    {
+        bool isValidUser = Bd.IniciarSesion(gmail, contraseña);
+
+        if (isValidUser)
         {
-            Bd.IniciarSesion(gmail, contraseña);
-            {
-
-            }
+            ViewBag.SuccessMessage = "¡Inicio de Sesión Satisfactorio!";
+            return RedirectToAction("Index", "Home"); 
         }
-        */
+        else
+        {
+           
+            ViewBag.SuccessMessage = "¡Inicio de Sesión Satisfactorio!";
+            return RedirectToAction("LogIn", "Home"); 
+        }
+    }
 
 
 
@@ -71,7 +77,7 @@ namespace dreammatch.Controllers
 
 
 
-
+        /*
         // Solicitud de recuperación de contraseña
         [HttpPost]
         public IActionResult SolicitarRecuperacion(string gmail)
@@ -131,5 +137,6 @@ namespace dreammatch.Controllers
                 return View("Error");
             }
         }
+        */
     }
 }

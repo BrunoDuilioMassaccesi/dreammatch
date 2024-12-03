@@ -12,12 +12,12 @@
     <div class="login-container">
         <h2 class="login-title">Log in</h2>
 
-        <form action="@Url.Action("Index", "Home")" method="post" class="login-form">
-            <label for="username" class="login-label">Nombre Usuario / Gmail</label>
-            <input type="text" id="username" name="username" class="login-input" placeholder="Nombre Usuario / Gmail" required>
+        <form action="@Url.Action("IniciarSesion", "Account")" method="post" class="login-form">
+            <label for="gmail" class="login-label">Gmail</label>
+            <input type="text" id="gmail" name="gmail" class="login-input" placeholder="Gmail" required>
 
-            <label for="password" class="login-label">Contraseña</label>
-            <input type="password" id="password" name="password" class="login-input" placeholder="Contraseña" required>
+            <label for="contraseña" class="login-label">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" class="login-input" placeholder="Contraseña" required>
 
             <button type="submit" class="login-button">Iniciar Sesión</button>
         </form>
@@ -25,17 +25,14 @@
         <div class="login-extra-options">
             <a href="@Url.Action("olvidecontraseña", "Home")" class="login-forgot-password">¿Olvidaste tu Contraseña?</a>
 
-                <div class="login-social-icons">
-                        <div class="login-icon"><img src="../img/google.png"></div>
-                        <div class="login-icon"><img src="../img/facebook.png"></div>
-                        <div class="login-icon"><img src="../img/asd.png"></div>
-                </div>
+            <div class="login-social-icons">
+                <div class="login-icon"><img src="../img/google.png"></div>
+                <div class="login-icon"><img src="../img/facebook.png"></div>
+                <div class="login-icon"><img src="../img/asd.png"></div>
+            </div>
 
             <p class="login-register-text">¿No tienes cuenta? <a href="@Url.Action("registro", "Home")" class="login-register-link">Registrate <b>Aqui</b></a></p>
         </div>
     </div>
 </body>
 </html>
-
-
-

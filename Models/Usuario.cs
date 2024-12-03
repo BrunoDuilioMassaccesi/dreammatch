@@ -1,4 +1,5 @@
-public class Usuario{
+public class Usuario
+{
     public int UsuarioID {get; set;}
     public string NombreUsuario {get; set;}
     public string Gmail {get; set;}
@@ -14,4 +15,5 @@ public class Usuario{
         Telefono = telefono; 
         Contraseña = contraseña;
     }
+
 }
