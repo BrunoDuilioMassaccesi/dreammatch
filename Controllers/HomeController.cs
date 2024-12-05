@@ -14,5 +14,6 @@ public class HomeController : Controller
     public IActionResult registro(){return View();}
     public IActionResult Pruebas(){return View();}
     public IActionResult ResetPassword(){return View();}
+    public IActionResult Contacto(){return View();}
 
 }
