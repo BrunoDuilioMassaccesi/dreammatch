@@ -7,22 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="~/css/styles.css">
-   <script src="/js/site.js"></script>
+ 
 </head>
 <body class="cuerpo">
+    <script src="~/js/site.js"></script>
     <div class="login-container">
         <h2 class="login-title">Register</h2>
 
-        <form action="@Url.Action("Registrar", "Account")" method="post" onsub class="login-form">
+        <form action="@Url.Action("Registrar", "Account")" method="post" onsub class="login-form" onsubmit = "return validarLongitud()">
             <label for="username" class="login-label">Nombre Usuario </label>
             <input type="text" id="username" name="nombreUsuario" class="login-input" placeholder="Nombre Usuario" required>
 
           <label for="username" class="login-label">Gmail</label>
         <input type="email" id="username" name="gmail" class="login-input" placeholder="Gmail">
-        <p id="mensajeError" style="color: red;"></p>
+         <p id="mensajeError" style="color: red;"></p>
 
             <label for="password" class="login-label">Contraseña</label>
             <input type="password" id="password" name="contraseña" class="login-input" placeholder="Contraseña" required>
+               <p id="mensajeErro" style="color: red;"></p>
 
             <label for="photo" class="login-label">Foto:</label>
             <input type="text" name="foto" placeholder="Link Foto de Perfil" required>
