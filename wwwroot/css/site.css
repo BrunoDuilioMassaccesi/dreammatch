@@ -476,34 +476,36 @@ h5.text-center {
 }
 
 /* Estilo para las tarjetas */
-.card {
+.cardc {
+  margin-left: 58%;
+  text-align: center;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card:hover {
+.cardc:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilo para la imagen */
-.card-img-top {
-  border: 3px solid #007bff;
+.cardc-img-top {
+  border: 1px solid black;
   padding: 5px;
   background-color: white;
 }
 
 /* Estilo para el texto */
-.card .card-body h5 {
+.cardc .card-body h5 {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #007bff;
+  color: black;
   margin-bottom: 10px;
 }
 
-.card .card-body p {
+.cardc .card-body p {
   font-size: 0.9rem;
   color: #333;
   margin: 5px 0;

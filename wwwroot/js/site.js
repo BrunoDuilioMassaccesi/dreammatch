@@ -15,3 +15,4 @@ function validarEmail() {
     mensajeError.innerHTML = "";
     return true; 
 }
+
