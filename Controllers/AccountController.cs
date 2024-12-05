@@ -21,13 +21,13 @@ namespace dreammatch.Controllers
 
         if (isValidUser)
         {
-            ViewBag.SuccessMessage = "¡Inicio de Sesión Satisfactorio!";
+            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
             return RedirectToAction("Index", "Home"); 
         }
         else
         {
            
-            ViewBag.SuccessMessage = "¡Inicio de Sesión Satisfactorio!";
+            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
             return RedirectToAction("LogIn", "Home"); 
         }
     }

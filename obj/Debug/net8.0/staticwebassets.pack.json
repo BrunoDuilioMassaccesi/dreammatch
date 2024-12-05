@@ -37,6 +37,14 @@
       "PackagePath": "staticwebassets\\img\\banfield.png"
     },
     {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\blaser.png",
+      "PackagePath": "staticwebassets\\img\\blaser.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\bruno.png",
+      "PackagePath": "staticwebassets\\img\\bruno.png"
+    },
+    {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\facebook.png",
       "PackagePath": "staticwebassets\\img\\facebook.png"
     },
@@ -55,6 +63,10 @@
     {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\fuego.png",
       "PackagePath": "staticwebassets\\img\\fuego.png"
+    },
+    {
+      "Id": "Z:\\dreammatch\\wwwroot\\img\\ghelman.png",
+      "PackagePath": "staticwebassets\\img\\ghelman.png"
     },
     {
       "Id": "Z:\\dreammatch\\wwwroot\\img\\gimnasia.png",

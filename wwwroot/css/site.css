@@ -441,4 +441,72 @@ h5.text-center {
   }
 }
 
+            
+.resset
+{
+  background-color: lightgrey;
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-top: 5%;
+  border-radius: 25px;
+  border: 0.1px solid black;
+}      
+.tituloresset
+{
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 15%;
+  font-weight: bolder;
+}
+.resset button
+{
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
 
+
+
+
+
+
+
+/* Estilo general para la sección de contacto */
+.container {
+  max-width: 1200px;
+}
+
+/* Estilo para las tarjetas */
+.cardc {
+  margin-left: 58%;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cardc:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para la imagen */
+.cardc-img-top {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+/* Estilo para el texto */
+.cardc .card-body h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.cardc .card-body p {
+  font-size: 0.9rem;
+  color: #333;
+  margin: 5px 0;
+}
