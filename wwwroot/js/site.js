@@ -16,6 +16,9 @@ function validarEmail() {
     return true; 
 }
 
+
+
+
 function validarLongitud()
 {
     let contrasena= document.getElementById("password").value;
