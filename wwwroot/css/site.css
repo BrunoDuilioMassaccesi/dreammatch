@@ -441,4 +441,25 @@ h5.text-center {
   }
 }
 
-
+            
+.resset
+{
+  background-color: lightgrey;
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-top: 5%;
+  border-radius: 25px;
+  border: 0.1px solid black;
+}      
+.tituloresset
+{
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 15%;
+  font-weight: bolder;
+}
+.resset button
+{
+  margin-left: 30%;
+  margin-bottom: 10%;
+}
