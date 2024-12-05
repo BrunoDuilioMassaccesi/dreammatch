@@ -21,13 +21,12 @@ namespace dreammatch.Controllers
 
         if (isValidUser)
         {
-            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
+            TempData["SuccessMessage"] = "Inicio de sesión exitoso!";
             return RedirectToAction("Index", "Home"); 
         }
         else
         {
-           
-            ViewBag.Message = "¡Error , las credenciales son incorrectas!";
+            TempData["ErrorMessage"] = "Inicio de sesión incorrecto. Por favor, verifica tus credenciales.";
             return RedirectToAction("LogIn", "Home"); 
         }
     }

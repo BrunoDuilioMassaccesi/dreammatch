@@ -11,7 +11,7 @@
 <body class="cuerpo">
     <div class="login-container">
         <h2 class="login-title">Log in</h2>
-
+       
         <form action="@Url.Action("IniciarSesion", "Account")" method="post" class="login-form">
             <label for="gmail" class="login-label">Gmail</label>
             <input type="email" id="gmail" name="gmail" class="login-input" placeholder="Gmail" required>
@@ -20,6 +20,11 @@
             <input type="password" id="contraseña" name="contraseña" class="login-input" placeholder="Contraseña" required>
 
             <button type="submit" class="login-button">Iniciar Sesión</button>
+
+            @if (TempData["ErrorMessage"] != null)
+            {
+                <div style="color: red;">@TempData["ErrorMessage"]</div>
+            }
         </form>
 
         <div class="login-extra-options">

@@ -19,5 +19,21 @@ function validarEmail() {
 
 
 
-
+function validarLongitud()
+{
+    let contrasena= document.getElementById("password").value;
+    let mensajeError = document.getElementById("mensajeErro"); 
+   
+    if(contrasena.length >= 8)
+    {
+        
+        mensajeError.innerHTML = "";
+        return true;
+    }
+    else{
+        
+        mensajeError.innerHTML = "La contraseña al menos debe contener una longitud de 8 caracteres";
+        return false;
+    }
+}
 
