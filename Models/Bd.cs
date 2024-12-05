@@ -7,8 +7,6 @@ namespace dreammatch
     public class Bd
     {
         private static string _connectionString = @"Server=localhost; DataBase=dreammatch; Trusted_Connection=true;";
-
-        // Método para registrar un usuario
         public static void RegistrarUsuario(string nombre, string email, string contraseña, DateTime Nacimiento, string Foto)
         {
             using (var connection = new SqlConnection(_connectionString))
@@ -25,10 +23,9 @@ namespace dreammatch
             using (var connection = new SqlConnection(_connectionString))
             {
                 string query = @"SELECT COUNT(*) FROM Usuario WHERE Gmail = @Gmail AND Contraseña = @Contraseña";
-
-                // Asegúrate de que la contraseña sea almacenada de manera segura (hashed) en la base de datos.
+     
                 int count = connection.ExecuteScalar<int>(query, new { Gmail = gmail, Contraseña = contraseña });
-                return count > 0; // Devuelve true si existe el usuario
+                return count > 0; 
             }
         }
 

@@ -27,7 +27,7 @@ namespace dreammatch.Controllers
         else
         {
            
-            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
+            ViewBag.Message = "¡Error , las credenciales son incorrectas!";
             return RedirectToAction("LogIn", "Home"); 
         }
     }
