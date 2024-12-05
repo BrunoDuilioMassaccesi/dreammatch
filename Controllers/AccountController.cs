@@ -6,47 +6,78 @@ namespace dreammatch.Controllers
 {
     public class AccountController : Controller
     {
-        // Registro de usuario
+        
         [HttpPost]
-        public IActionResult Registrar(string nombreUsuario, string gmail, string telefono, string pais, string contraseña)
+        public IActionResult Registrar(string nombreUsuario, string gmail, string contraseña, DateTime nacimiento, string Foto)
         {
-            try
-            {
-                Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña);
-                ViewBag.Mensaje = "Usuario registrado con éxito.";
-                return View("Success");
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = $"Error al registrar usuario: {ex.Message}";
-                return View("Error");
-            }
+            Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña, nacimiento, Foto);
+            return RedirectToAction("Index","Home");
         }
 
-        // Inicio de sesión
-        [HttpPost]
-        public IActionResult IniciarSesion(string gmail, string contraseña)
-        {
-            try
-            {
-                if (Bd.IniciarSesion(gmail, contraseña))
-                {
-                    // Autenticación exitosa
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ViewBag.Error = "Credenciales inválidas. Intenta de nuevo.";
-                    return View("Login");
-                }
-            }
-            catch (Exception ex)
-            {
-                ViewBag.Error = $"Error al iniciar sesión: {ex.Message}";
-                return View("Error");
-            }
-        }
+    [HttpPost]
+    public IActionResult IniciarSesion(string gmail, string contraseña)
+    {
+        bool isValidUser = Bd.IniciarSesion(gmail, contraseña);
 
+        if (isValidUser)
+        {
+            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
+            return RedirectToAction("Index", "Home"); 
+        }
+        else
+        {
+           
+            ViewBag.Message = "¡Inicio de Sesión Satisfactorio!";
+            return RedirectToAction("LogIn", "Home"); 
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
         // Solicitud de recuperación de contraseña
         [HttpPost]
         public IActionResult SolicitarRecuperacion(string gmail)
@@ -106,5 +137,6 @@ namespace dreammatch.Controllers
                 return View("Error");
             }
         }
+        */
     }
 }

@@ -7,24 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="~/css/styles.css">
+    <script src="~/js/site.js"></script>
 </head>
 <body class="cuerpo">
     <div class="login-container">
         <h2 class="login-title">Register</h2>
 
-        <form action="@Url.Action("Index", "Home")" method="post" class="login-form">
-            <label for="username" class="login-label">Ingresa Tu Nombre Completo </label>
-            <input type="text" id="username" name="username" class="login-input" placeholder="Nombre Usuario / Gmail" required>
+        <form action="@Url.Action("Registrar", "Account")" method="post" onsubmit="return validarFormulario()" class="login-form">
+            <label for="username" class="login-label">Nombre Usuario </label>
+            <input type="text" id="username" name="nombreUsuario" class="login-input" placeholder="Nombre Usuario" required>
 
-            <label for="password" class="login-label">Ingresa Tu Mail</label>
-            <input type="password" id="password" name="password" class="login-input" placeholder="Contraseña" required>
+          <label for="username" class="login-label">Gmail</label>
+        <input type="text" id="username" name="gmail" class="login-input" placeholder="Gmail">
+        <p id="mensajeError" style="color: red;"></p>
+
+            <label for="password" class="login-label">Contraseña</label>
+            <input type="password" id="password" name="contraseña" class="login-input" placeholder="Contraseña" required>
+
+            <label for="photo" class="login-label">Foto:</label>
+            <input type="text" name="foto" placeholder="Link Foto de Perfil" required>
 
             <label for="datetime" class="login-label">YYYY / MM / DD</label>
-            <input type="date" id="datetime" name="date" class="login-input" placeholder="YYYY / MM / DD" required>
+            <input type="date" id="datetime" name="nacimiento" class="login-input" placeholder="YYYY / MM / DD" required>
 
-            <button type="submit" class="login-button">Registrarse</button>
+            <button type="submit" class="login-button-reg">Registrarse</button>
 
-                    <div class="login-social-icons">
+                    <div class="login-social-icons-rg">
                         <div class="login-icon"><img src="../img/google.png"></div>
                         <div class="login-icon"><img src="../img/facebook.png"></div>
                         <div class="login-icon"><img src="../img/asd.png"></div>
