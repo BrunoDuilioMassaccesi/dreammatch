@@ -32,9 +32,41 @@ namespace dreammatch
             }
         }
 
-        
 
+        public string ValidarCorreo(string gmail)
+    {
+        string mensaje = "";
 
+                using (var connection = new SqlConnection(_connectionString))        
+            {
+            string query = "SELECT COUNT(*) FROM Usuario WHERE Gmail = @Gmail";
+
+            SqlCommand command = new SqlCommand(query, connection);
+            command.Parameters.AddWithValue("@Gmail", gmail);
+
+            try
+            {
+                connection.Open();
+                int count = (int)command.ExecuteScalar();
+
+                if (count > 0)
+                {
+                    mensaje = "Se encontró tu mail, ya puedes cambiar tu contraseña.";
+                }
+                else
+                {
+                    mensaje = "Mail incorrecto.";
+                }
+            }
+            catch (Exception ex)
+            {
+                mensaje = "Ocurrió un error: " + ex.Message;
+            }
+        }
+
+        return mensaje;
+    }
+    }
         /*
         // Método para solicitar recuperación de contraseña
         public static void SolicitarRecuperacion(string email, string codigoRecuperacion)
@@ -75,6 +107,4 @@ namespace dreammatch
             }
         }
         */
-    }
-    
 }

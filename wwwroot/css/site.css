@@ -264,17 +264,7 @@ body {
   justify-content: center;
 }
 
-.nav-link {
-  text-decoration: none;
-  font-size: 16px;
-  color: #333;
-  font-weight: bold;
-  transition: color 0.3s;
-}
 
-.nav-link:hover {
-  color: #000;
-}
 
 .search-container {
   display: flex;
@@ -444,7 +434,7 @@ h5.text-center {
             
 .resset
 {
-  background-color: lightgrey;
+  background-color: white;
   margin-left: 37%;
   margin-right: 37%;
   margin-top: 5%;
@@ -509,4 +499,15 @@ h5.text-center {
   font-size: 0.9rem;
   color: #333;
   margin: 5px 0;
+}
+.nav-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #000;
 }
