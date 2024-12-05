@@ -30,6 +30,19 @@ namespace dreammatch
         }
 
 
+         public static List<Usuario> ListaUsuarios()
+        {
+             List<Usuario> ListaUsuarios = new List<Usuario>();
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                string sql = @"Select * from Usuario";
+     
+              ListaUsuarios = conn.Query<Usuario>(sql).ToList();
+                return ListaUsuarios; 
+            }
+        }
+
+
      
 
    

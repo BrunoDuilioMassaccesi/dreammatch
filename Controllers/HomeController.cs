@@ -11,7 +11,10 @@ public class HomeController : Controller
     public IActionResult index(){return View();}
     public IActionResult LogIn(){return View();}
     public IActionResult olvidecontraseña(){return View();}
-    public IActionResult registro(){return View();}
+    public IActionResult registro(string error="")
+    {
+        ViewBag.MensajeError = error;
+        return View();}
     public IActionResult Pruebas(){return View();}
     public IActionResult ResetPassword(){return View();}
     public IActionResult Contacto(){return View();}

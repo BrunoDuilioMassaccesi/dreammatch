@@ -10,9 +10,29 @@ namespace dreammatch.Controllers
         [HttpPost]
         public IActionResult Registrar(string nombreUsuario, string gmail, string contraseña, DateTime nacimiento, string Foto)
         {
-            Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña, nacimiento, Foto);
+            
+            ViewBag.usuarios = Bd.ListaUsuarios();
+            List<Usuario> ListaUsuario = Bd.ListaUsuarios();
+
+                   for(int i = 1; i < ListaUsuario.Count; i++) 
+       {
+            if (ListaUsuario[i].Gmail == gmail) 
+            {
+                
+                return RedirectToAction("registro", "Home", new {error = "El mail ya esta registrado"});
+            }
+            else
+            {
+                Bd.RegistrarUsuario(nombreUsuario, gmail, contraseña, nacimiento, Foto);
+            }
+       }
             return RedirectToAction("Index","Home");
+    
+
+          
+       
         }
+        
 
     [HttpPost]
     public IActionResult IniciarSesion(string gmail, string contraseña)
@@ -32,13 +52,7 @@ namespace dreammatch.Controllers
         }
     }
 
-
-
-
-
-
-
-
+    
 
 
 

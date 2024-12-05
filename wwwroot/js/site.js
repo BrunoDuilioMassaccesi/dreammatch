@@ -32,5 +32,7 @@ function validarLongitud()
         mensajeError.innerHTML = "La contraseña al menos debe contener una longitud de 8 caracteres";
         return false;
     }
+
+    
 }
 
