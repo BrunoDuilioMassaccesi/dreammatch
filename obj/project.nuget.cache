@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "RAY8ONSRx33GOf/NQhz7LrhiSlfsorwRlJbCzHBWiXdz8RjyrCvDyVPtLRd8g6I5FSbGEXZB2uKyoH4mS93uaQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\48113202\\dreammatch\\dmlog.csproj",
@@ -10,6 +11,18 @@
     "C:\\Users\\48113202\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\48113202\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\48113202\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+=======
+  "dgSpecHash": "GPdSd13I6/ckn20ii9vl3kxczRiQe9nISBZpqicR/S1osTkYh1ywqvt5Gikjw14Or1Gp+1XACAC4MN+G/vnd5w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\48801536\\Desktop\\dreammatch\\dmlog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\48801536\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\48801536\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\48801536\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\48801536\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\48801536\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\48801536\\.nuget\\packages\\system.data.sqlclient\\4.9.0\\system.data.sqlclient.4.9.0.nupkg.sha512"
+>>>>>>> 46273380f6fe94ffb4e2adac77025deb6a75343d
   ],
   "logs": []
 }

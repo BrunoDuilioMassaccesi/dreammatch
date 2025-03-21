@@ -1,6 +1,7 @@
 {
   "Files": [
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\48113202\\dreammatch\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -150,6 +151,161 @@
     },
     {
       "Id": "C:\\Users\\48113202\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+=======
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\4.png",
+      "PackagePath": "staticwebassets\\img\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\Thumbs.db",
+      "PackagePath": "staticwebassets\\img\\Thumbs.db"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\allboys.png",
+      "PackagePath": "staticwebassets\\img\\allboys.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\apple.png",
+      "PackagePath": "staticwebassets\\img\\apple.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\asd.png",
+      "PackagePath": "staticwebassets\\img\\asd.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\atlanta.png",
+      "PackagePath": "staticwebassets\\img\\atlanta.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\banfield.png",
+      "PackagePath": "staticwebassets\\img\\banfield.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\blaser.png",
+      "PackagePath": "staticwebassets\\img\\blaser.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\bruno.png",
+      "PackagePath": "staticwebassets\\img\\bruno.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\facebook.png",
+      "PackagePath": "staticwebassets\\img\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\facu.png",
+      "PackagePath": "staticwebassets\\img\\facu.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\ferro.png",
+      "PackagePath": "staticwebassets\\img\\ferro.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\fi1.png",
+      "PackagePath": "staticwebassets\\img\\fi1.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\findex.jpg",
+      "PackagePath": "staticwebassets\\img\\findex.jpg"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\fuego.png",
+      "PackagePath": "staticwebassets\\img\\fuego.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\ghelman.png",
+      "PackagePath": "staticwebassets\\img\\ghelman.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\gimnasia.png",
+      "PackagePath": "staticwebassets\\img\\gimnasia.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\google.png",
+      "PackagePath": "staticwebassets\\img\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\iconlog.png",
+      "PackagePath": "staticwebassets\\img\\iconlog.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\img pruebas.png",
+      "PackagePath": "staticwebassets\\img\\img pruebas.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\independiente.png",
+      "PackagePath": "staticwebassets\\img\\independiente.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\logodm.png",
+      "PackagePath": "staticwebassets\\img\\logodm.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\river.png",
+      "PackagePath": "staticwebassets\\img\\river.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\img\\sanlorenzo.png",
+      "PackagePath": "staticwebassets\\img\\sanlorenzo.png"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\48801536\\Desktop\\dreammatch\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+>>>>>>> 46273380f6fe94ffb4e2adac77025deb6a75343d
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
