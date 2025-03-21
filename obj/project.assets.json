@@ -207,23 +207,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\48590334\\.nuget\\packages\\": {},
+    "C:\\Users\\48801536\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Z:\\dreammatch\\dmlog.csproj",
+      "projectUniqueName": "C:\\Users\\48801536\\Desktop\\dreammatch\\dmlog.csproj",
       "projectName": "dmlog",
-      "projectPath": "Z:\\dreammatch\\dmlog.csproj",
-      "packagesPath": "C:\\Users\\48590334\\.nuget\\packages\\",
-      "outputPath": "Z:\\dreammatch\\obj\\",
+      "projectPath": "C:\\Users\\48801536\\Desktop\\dreammatch\\dmlog.csproj",
+      "packagesPath": "C:\\Users\\48801536\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\48801536\\Desktop\\dreammatch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\48590334\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\48801536\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
