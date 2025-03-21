@@ -20,15 +20,12 @@
             <input type="password" id="contraseña" name="contraseña" class="login-input" placeholder="Contraseña" required>
 
             <button type="submit" class="login-button">Iniciar Sesión</button>
-<<<<<<< HEAD
             <p> @ViewBag.Message </p>
-=======
 
             @if (TempData["ErrorMessage"] != null)
             {
                 <div style="color: red;">@TempData["ErrorMessage"]</div>
             }
->>>>>>> df10297d3461c135556744efac4c4206b5ce252b
         </form>
 
         <div class="login-extra-options">

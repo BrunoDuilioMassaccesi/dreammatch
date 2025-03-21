@@ -177,10 +177,14 @@ img
   display: flex;
   gap: 20px;
 }
+.nav-link {
+  color: black !important;
+}
+
 
 .header-link {
   font-weight: bold;
-  color: #000;
+  color: black !important;
   text-decoration: none;
   transition: color 0.3s ease;
 }
